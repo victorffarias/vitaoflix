@@ -1,15 +1,16 @@
 import React from 'react';
 import { ButtonLink } from './style';
+import { Link } from 'react-router-dom';
 
 interface Props {
     className ?: string;
-    href : string;
+    to : string;
 };
 
 
-const Button: React.FC<Props> = ({className, href, children}) => {
+const Button: React.FC<Props> = ({className, to, children}) => {
     return (
-        <ButtonLink as="a" className={className} href={href}>
+        <ButtonLink as={Link} className={className} to={to}>
             {children}
         </ButtonLink>
     );
