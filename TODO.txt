@@ -1,0 +1,5 @@
+- Personalized 404 page
+- Animations on carousel
+  - Hover
+  - Horizontal Scroll
+- Colors on carousel
