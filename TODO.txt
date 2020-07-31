@@ -1,5 +1,10 @@
+DAY 2
 - Personalized 404 page
 - Animations on carousel
   - Hover
   - Horizontal Scroll
 - Colors on carousel
+
+DAY 3
+- Make the text area work
+- Change color input
